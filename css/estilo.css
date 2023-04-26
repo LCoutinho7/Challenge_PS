@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: Oswald, sans-serif;
+}
+
 .cabecalho{
     background-color: #000;
     color: #fff;
@@ -37,9 +41,9 @@
 
 .conteudo{
     margin: 0 auto;
-    max-width: 50%;
-    display: flex;
-    flex-wrap: wrap;
+    max-width: 50vw;
+    display:flexbox;
+
 }
 
 .conteudo p{
@@ -47,4 +51,5 @@
     border-radius: 2%;
     border-style:groove;
     font-family: Oswald, sans-serif;
+    font-size: 0.8rem;
 }
