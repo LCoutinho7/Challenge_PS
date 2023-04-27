@@ -1,0 +1,30 @@
+.cabecalho{
+    background-color: #000;
+    color: #fff;
+    padding: 3%;  
+}
+
+.cabecalho ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.cabecalho nav ul li{
+    font-size: 1.5rem;
+    font-family: Oswald, sans-serif;
+}
+
+.cabecalho nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.cabecalho img{
+    max-width: 10%;
+    height: 8%;
+}
