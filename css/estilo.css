@@ -24,5 +24,7 @@ html{
 h1{
     text-align: center;
     text-decoration: underline;
+    padding-top: 1vh;
 }
+
 
